@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spotify</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="estilos-sarai.css" rel="stylesheet" type="text/css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quicksand:wght@700&family=Ubuntu:wght@300&display=swap');
+</style>
+</head>
+
+<body bgcolor="#121212">
+	<div class="contenedor">
+	<div class="bloque0">
+		<a href="index.html"><img src="imagenes-sarai/logo.png" alt="#"></a>
+		<div class="menu" id="myTopnav">
+		<a href="index.html">Inicio</a>
+		<a href="generopop.html">Pop</a>
+		<a href="Kpop2.html">K-pop</a>
+		<a href="rock.html">Rock</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+		</div>
+	</div>
+		
+	<div class="bloquebanner">
+		<picture>
+		<source srcset="imagenes-sarai/bannerari.jpg" media="(max-width:600px)"> 
+		<source srcset="imagenes-sarai/bannerari1.jpeg" media="(max-width:800px)">
+		<source srcset="imagenes-sarai/bannerari.jpg">
+		<img src="imagenes-sarai/bannerari.jpg" alt="#">
+		</picture>
+	</div>
+		
+	<div class="bloque1">
+		<img src="imagenes-sarai/Ari.jpeg" alt="#">
+		<p>Ariana Grande Butera, conocida en el medio artístico y musical como Ariana Grande, es una cantante y compositora estadounidense. También es actriz, bailarina, instrumentista, productora discográfica y filántropa. Nació en Boca Ratón, Florida, Estados Unidos, el 26 de junio de 1993</p>
+		
+		<p>Comenzó su carrera artística en las series de Nickelodeon, con las que ganó reconocimiento como actriz, y eventualmente participó en las bandas sonoras que la posicionaron como cantante. 
+		
+		Fue descubierta musicalmente por YouTube, donde hacía covers.</p>
+		
+	</div>
+	
+	<div class="bloque2">
+	    <h3>Álbumes más exitosos</h3>
+	    <div class="contenedorB2">
+	    <img src="imagenes-sarai/thanku.jpeg" alt="#">
+	    <h4>Thank U, Next</h4>
+	    <p>2019 · 12 canciones</p>
+	    <a href="https://open.spotify.com/album/2fYhqwDWXjbpjaIJPEfKFw">Escúchalo</a>
+	</div>
+		
+	<div class="contenedorB2">
+	    <img src="imagenes-sarai/kbye.jpeg" alt="#">
+	    <h4>K bye for now</h4>
+	    <p>2019 · 32 canciones</p>
+	    <a href="https://open.spotify.com/album/5UACk85y1hNRSUtY0ss8pb">Escúchalo</a>
+	</div>
+	    
+	<div class="contenedorB2">
+	    <img src="imagenes-sarai/positions.jpeg" alt="#">
+	    <h4>Positions</h4>
+	    <p>2020 · 14 canciones</p>
+	    <a href="https://open.spotify.com/album/3euz4vS7ezKGnNSwgyvKcd">Escúchalo</a>
+		</div>
+	</div>	
+		
+	<div class="bloque3">
+		<h3>Top 3 "Mejores canciones"</h3>
+		<div class="contenedorB3">
+		<a href="https://open.spotify.com/track/3e9HZxeyfWwjeyPAMmWSSQ"><img src="imagenes-sarai/next.jpeg" alt="#"></a>
+		<h4>Thank U, Next</h4>
+		<p>2019 · 3:27</p>
+		</div>
+		
+		<div class="contenedorB3">
+		<a href="https://open.spotify.com/track/49gRYU6hBWgSH2JVixGkJq"><img src="imagenes-sarai/notears.jpeg" alt="#"></a>
+		<h4>Into you</h4>
+		<p>2016 · 4:04</p>
+		</div>
+		
+		<div class="contenedorB3">
+		<a href="https://open.spotify.com/track/6ocbgoVGwYJhOv1GgI9NsF"><img src="imagenes-sarai/rings.jpg" alt="#"></a>
+		<h4>7 rings</h4>
+		<p>2019 · 2:58</p>
+		</div>
+	</div>	
+		
+	</div>
+	
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "menu") { x.className += " responsive";} else { x.className = "menu";}
+}
+</script>
+
+</body>
+</html>

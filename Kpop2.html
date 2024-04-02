@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spotify</title>
+<link href="estilos2-karla.css" rel="stylesheet" type="text/css">
+	<link href="estilos-karla.css" rel="stylesheet" type="text/css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quicksand:wght@700&family=Ubuntu:wght@300&display=swap');
+</style>
+</head>
+
+	<body bgcolor="#121212">
+	<div class="centrar">
+	<div class="bloquelogo">
+		<img src="imagenes-karla/logo.png">
+	<div class="menu" id="myTopnav">
+		<a href="index.html"><b>Inicio</b></a>
+		<a href="generopop.html"><b>Pop</b></a>
+		<a href="Kpop2.html"><b>K-pop</b></a>
+		<a href="rock.html"><b>Rock</b></a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+	</div>
+		</div>
+	
+		<div class="kpop">
+			<h1><b>Género K-pop</b></h1>
+		</div>
+		
+	<div class="portada">
+			<picture>
+				<source srcset="imagenes-karla/kpop1.jpeg" media="(max-width:800px)">
+		<source src="imagenes-karla/kpop1.jpeg">
+				<img class="portada1" src="imagenes-karla/kpop.jpeg">
+			</picture>
+		</div>
+		
+		<div class="artistas">
+		<h3>Artistas sobresalientes</h3>
+		<div class="top">
+		<img src="imagenes-karla/blackpink.jpeg" alt="BLACKPINK.html">
+		<h4>Blackpink</h4>
+		<a href="BLACKPINK.html">Escúchalo</a>
+		</div>
+		
+		<div class="top">
+		<img src="imagenes-karla/somi.jpeg" alt="#">
+		<h4>Jeon Somi</h4>
+		<a href="Jeon.html">Escúchalo</a>
+		</div>
+		
+		<div class="top">
+		<img src="imagenes-karla/seventeen.jpeg" alt="#">
+		<h4>Seventeen</h4>
+		<a href="https://open.spotify.com/artist/7nqOGRxlXj7N2JYbgNEjYH">Escúchalo</a>
+		</div>
+	</div>
+	
+	<div class="albums">
+			<h3>Álbumes Destacados</h3>
+		<div class="albums1">
+		<img src="imagenes-karla/pink.jpeg" >
+			<h4>Born Pink</h4>
+			<p>2022 · 8 temas</p><br>
+			<a href="#">Escúchalo</a>
+		</div>
+		
+		<div class="albums1">
+			<img src="imagenes-karla/xoxo.jpeg">
+			<h4>XOXO</h4>
+			<p>2021 · 8 temas</p><br>
+		<a href="https://open.spotify.com/track/4r34Yi0eltsu1tp6z4lq3x">Escúchalo</a>
+		</div>
+		
+		<div class="albums1">
+			<img src="imagenes-karla/sun.jpeg">
+			<h4>Square one</h4>
+			<p>2022 · 9 temas</p><br>
+		<a href="#">Escúchalo</a>
+		</div>
+	
+		<div class="bloque3">
+		<h3>Top 3 "Mejores canciones"</h3>
+		<div class="flotantes">
+		<a href="#">
+		<img src="imagenes-karla/jisoo flower.jpeg" alt="#"></a>
+		<h3>Flower</h3>
+		<p>Jisoo</p>
+		</div>	
+		
+		<div class="flotantes">
+		<a href="#">
+		<img src="imagenes-karla/Nxde.jpeg" alt="#"></a>
+		<h3>Nxde</h3>
+		<p>(G)I-DLE</p>
+		</div>	
+			
+	    <div class="flotantes">
+		<a href="#">
+		<img src="imagenes-karla/cupid.jpeg" alt="#"></a>
+		<h3>Cupid-Twin Ver.</h3>
+		<p>Fifty Fifty</p>
+		</div>	
+			
+			
+	    </div>
+		</div>
+		
+	</div>
+		
+	<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "menu") {
+    x.className += " responsive";
+  } else {
+    x.className = "menu";
+  }
+}
+</script>
+		
+</body>
+</html>

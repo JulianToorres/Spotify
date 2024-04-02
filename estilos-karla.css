@@ -1,0 +1,260 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face{
+	font-family: Quicksand-VariableFont_wght;
+	src: url("Recursos-karla/Quicksand-VariableFont_wght.ttf")
+}
+
+@font-face{
+	font-family: Ubuntu-Light;
+	src: url("Recursos-karla/Ubuntu-Light.ttf")
+}
+
+*{box-sizing: border-box;}
+
+h1,h2,h3, h4,a{
+	font-family: Quicksand-VariableFont_wght;
+	color: #F9F9F9;
+}
+
+p{
+	font-family:Ubuntu-Light;
+	color: #FAFAFA;
+}
+
+.centrar{
+	max-width: 1000px;
+	margin: auto;
+}
+
+.bloquelogo{
+	background-color: #252525;
+	width: auto;
+	padding: 20px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+	
+}
+
+.bloquelogo img{
+	width: 16%;
+}
+
+.menu{
+	float: right;
+	font-size: 15px;
+	padding: 32px 10px 10px 10px; 
+	padding-right: 15px;
+     margin-top: -13px;
+	overflow: hidden;
+	position: sticky;
+	
+}
+
+.menu a{
+	margin: 3px;
+	padding: 10px 17px;
+	background-color: #F2F2F2;
+	border-radius: 20px;
+	text-decoration: none;
+	color: #0B0B0D;
+}
+
+.menu a:hover, a:active{
+	background-color: #00D756;
+}
+
+.menu .icon {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .menu a {display: none;}
+  .menu a.icon {
+    float: left;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .menu.responsive {position: relative;}
+  .menu.responsive .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    position:relative;
+    left:10px;
+  }
+} 
+
+.kpop{
+    width: 100%;
+	background-color: #252525;
+	color:white;
+	padding: 20px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin: auto;
+	text-align: center
+}
+
+.portada{
+	width: 100%;
+	background-color: #252525;
+	padding: 20px;
+	overflow: hidden;
+	text-align:center;
+}
+
+.portada img{
+	width: 80%;
+	float:none;
+	border-radius: 10px;
+	
+}
+
+.blackpink{
+	width: 100%;
+	background-color: #252525;
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding: 20px;
+	overflow: hidden;
+	text-align: justify;
+}
+
+.blackpink img{
+	width: 40%;
+	float: left;
+	margin-right: 30px;
+	border-radius: 10px;
+}
+
+.integrantes1{
+	width: 100%;
+	background-color: #252525; 
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding: 20px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.integrantes{
+	width: 25%;
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	float: left;
+	text-align: center;
+    
+}
+
+.integrantes img{
+	width: 80%;
+	margin: 20px;
+	border-radius: 10px;
+}
+
+
+.albums{
+	margin-top: -3.5%;
+	width: 100%;
+	padding: 5px 20px;
+	background-color: #252525;
+	overflow: hidden;
+}
+
+.albums img{
+	width: 90%;
+	border-radius: 10px;
+}
+
+.albums1{
+	float: left;
+	width: 32%;
+	margin: 0px 0.65% 10px;
+	padding: 25px 0px;
+	text-align: center;
+	border-radius: 15px;
+	background-color: #333333;
+}
+
+.albums1 a{
+	padding: 4px 8px;
+	border-radius: 20px;
+	text-decoration: none;
+	background-color: #00D756;
+}
+
+.bloque3{
+	margin-top: -1.5%;
+	width: 100%;
+	padding: 0px 20px 10px;
+	background-color: #252525;
+	overflow: hidden;
+	border-bottom-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+	
+}
+
+.bloque3 img{
+	width: 90%;
+	border-radius: 10px;
+}
+
+.flotantes{
+	float: left;
+	width: 32%;
+	margin: 0px 0.65% 10px;
+	padding: 25px 0px;
+	text-align: center;
+	border-radius: 15px;
+	background-color: #333333;
+}
+
+
+@media screen and (max-width:800px){
+	.menu{
+		padding: 15px 10px 0px 40px; 
+		font-size: 15px;
+	}
+	.blackpink{font-size: 15px;}
+
+    .portada{font-size: 15px;}
+}
+     .bloque2 {text-align: center;}
+	.bloque3 {text-align: center;}
+
+
+@media screen and (max-width:650px){
+	.menu{
+		padding: 24px 10px 0px 0px; 
+		font-size: 15px;
+	}
+	.bloquelogo img{
+		width: 160px;
+	}
+	.menu a{
+		margin: 6px;
+		padding: 3px 6px;
+	}
+	.integrantes{width:50%;}
+	.sencillo{width: 100%}
+
+    .albums { 
+		text-align: center;
+		margin-top: -5%;
+	}
+	.albums1{
+		width: 100%;
+	}
+	.bloque3 { text-align: center;}
+	.flotantes{ width: 100%; }
+}

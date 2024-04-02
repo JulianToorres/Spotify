@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spotify</title>
+<link href="estilo-julian.css" rel="stylesheet" type="text/css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap');
+</style>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="centrar">
+	
+			
+			<div class="bloque0">
+				<img alt="Imagotipo de Spotify" src="imagenes-julian/spotify-logo-vectorial.png">
+				<div class="menu" id="myTopnav">
+					<a href="index.html"><b>Inicio</b></a>
+					<a href="generopop.html"><b>Pop</b></a>
+					<a href="Kpop2.html"><b>K-pop</b></a>
+					<a href="rock.html"><b>Rock</b></a>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
+				</div>
+			</div>
+	
+		<div class="contenido">
+			<h1 style="text-align: center;">Rock</h1>
+			<picture>
+				<source srcset="imagenes-julian/queen.jpg" media="(max-width:425px)">
+				<source srcset="imagenes-julian/ac-dc_2.jpg" media="(max-width:768px)">
+				<source srcset="imagenes-julian/the-beatles_caminando.jpg">
+				<img alt="Fotografía de la banda The Beatles" src="imagenes-julian/the-beatles_caminando.jpg">
+			</picture>
+			<h2 id="artistas">Artistas destacados</h2>
+			<div class="tabla">
+				<div class="fila">
+					<div class="contenedor">
+						<img alt="Fotografía de la banda Paramore" src="imagenes-julian/paramore.jpg">
+						<h3>Paramore</h3>
+						<h4>19,322,964 oyentes mensuales</h4><br><br>
+						<a href="paramore.html"><b>Conoce más</b></a>
+					</div>
+					<div class="contenedor">
+						<img alt="Fotografía de la banda Of Monsters and Men" src="imagenes-julian/of-monsters-and-men.jpg">
+						<h3>Of Monsters and Men</h3>
+						<h4>8,148,603 oyentes mensuales</h4><br><br>
+						<a href="omam.html"><b>Conoce más</b></a>
+					</div>
+					<div class="contenedor">
+						<img alt="Fotografía de la banda Of The Score" src="imagenes-julian/the-score-1.png">
+						<h3>The Score</h3>
+						<h4>5,462,233 oyentes mensuales</h4><br><br>
+						<a href="score.html"><b>Conoce más</b></a>
+					</div>
+				</div>
+			</div>
+			<h2 id="albums">Álbumes destacados</h2>
+			<div class="tabla">
+				<div class="fila">
+					<div class="contenedor">
+						<img alt="Álbum Black in Black de AC/DC" src="imagenes-julian/acdc_back-in-black_album.jpg">
+						<h3>AC/DC - Black in Black</h3>
+						<h4>50 millones en ventas</h4><br><br>
+						<a href="https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh" target="_blank"><b>Escúchalo ahora</b></a>
+					</div>
+					<div class="contenedor">
+						<img alt="Álbum The Dark Side of the Moon de Pink Floyd" src="imagenes-julian/pink-floyd_the-dark-side-of-the-moon_album.jpg">
+						<h3>Pink Floyd - The Dark Side of the Moon</h3>
+						<h4>45 millones en ventas</h4><br><br>
+						<a href="https://open.spotify.com/album/4LH4d3cOWNNsVw41Gqt2kv" target="_blank"><b>Escúchalo ahora</b></a>
+					</div>
+					<div class="contenedor">
+						<img alt="Álbum Their Greatest Hits de Eagles" src="imagenes-julian/eagles_their-greatest-hits_album.jpg">
+						<h3>Eagles - Their Greatest Hits</h3>
+						<h4>42 millones en ventas</h4><br><br>
+						<a href="https://open.spotify.com/album/2Lgsa7jbu86SK5zJVFCh3S" target="_blank"><b>Escúchalo ahora</b></a>
+					</div>
+				</div>
+			</div>
+			<h2 id="canciones">Canciones destacadas</h2>
+			<div class="tabla">
+				<div class="fila">
+					<div class="contenedor">
+						<img alt="Álbum Black in Black de AC/DC" src="imagenes-julian/acdc_back-in-black_album.jpg">
+						<h3>AC/DC - You Shook Me All Night Long</h3>
+						<h4>859,040,286 de reproducciones</h4><br><br>
+						<a href="https://open.spotify.com/track/2SiXAy7TuUkycRVbbWDEpo" target="_blank"><b>Escúchala ahora</b></a>
+					</div>
+					<div class="contenedor">
+						<img alt="Álbum The Dark Side of the Moon de Pink Floyd" src="imagenes-julian/the-rolling-stones_i-cant-get-no-satisfaction.jpg">
+						<h3>The Rolling Stones - (I can´t Get No) Satisfaction</h3>
+						<h4>589,459,248 de reproducciones</h4><br><br>
+						<a href="https://open.spotify.com/track/2PzU4IB8Dr6mxV3lHuaG34" target="_blank"><b>Escúchala ahora</b></a>
+					</div>
+					<div class="contenedor">
+						<img alt="Álbum Their Greatest Hits de Eagles" src="imagenes-julian/chuck-berry_johnny-b-goode_cancion.webp">
+						<h3>Chuck Berry - Johnny B. Goode</h3>
+						<h4>387,397,511 de reproducciones</h4><br><br>
+						<a href="https://open.spotify.com/track/2QfiRTz5Yc8DdShCxG1tB2" target="_blank"><b>Escúchala ahora</b></a>
+					</div>
+				</div>
+			</div>
+ 		</div>
+	</div>
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "menu") {
+				x.className += " responsive";
+			} else {
+				x.className = "menu";
+			}
+		}
+	</script>
+</body>
+</html>
